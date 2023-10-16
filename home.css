@@ -1,0 +1,213 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url(Font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(Font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(Font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(Font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url(Font/OpenSans-Bold.ttf);
+}
+
+.contanier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+.contato {
+    background-color: #106EEA;
+}
+.contato .contanier  a {
+    font: 500 30px 'OpenSans Regular';
+    color: white;
+    margin-right: 40px;
+}
+
+.contato .contanier {
+    justify-content: flex-start;
+    height: 35px;
+}
+.logo.nome {
+    font: 700 40px 'Poppins Bold';
+}
+
+.menu a {
+    font: 500 22px 'OpenSans Regular';
+    color: black;
+    margin-left: 20px;
+}
+.inicio {
+    background-image: url(Img/Vitral.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inicio .contanier {
+    justify-content: flex-end;
+    height: 400px;
+}
+
+.titulo-inicio {
+    font: 700 50px 'Poppins Bold';
+}
+.texto-inicio {
+    font: 500 54px 'Poppins Regular';
+}
+.titulo {
+    font: 700 40px 'Roboto Bold';
+    color: black;
+}
+span {
+    color: #106EEA;
+}
+.texto {
+    font: 500 20px 'OpenSans Regular';
+}
+.conteudo {
+    text-align: center;
+}
+.sobreNos .conteudo .texto {
+    text-align: justify;
+}
+.sobreNos .imagem img {
+    width: 500px;
+}
+.sobreNos .conteudo {
+    margin-right: 100px;
+}
+.infos .quadrados .quadrado img {
+    width: 100px;
+} 
+.infos .quadrados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.quadrado {
+    background-color: #f1f6fe;
+    border: 1px solid #8CA9CE;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 50px;
+}
+.divisao {
+    background-color: #106EEA;
+    height: 2px;
+}
+.servicos .contanier {
+    flex-direction: column;
+}
+.servico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.servico .servico-titulo {
+    font: 700 24px 'Roboto Bold';
+    text-align: center;
+}
+.servico .servico-nome {
+    border: 2px solid #8CA9CE;
+    width: 275px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+.equipe .contanier {
+    flex-direction: column;
+}
+.equipe .pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equipe .pessoas .pessoa {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 25px;
+}
+.equipe .conteudo .texto {
+    text-align: justify;
+}
+.formulario .contanier {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.endereco {
+    width: 400px;
+    border: 3px solid #8CA9CE;
+    height: 100px;
+    padding: 10px;
+}
+input {
+    height: 60px;
+    background-color: #7a7a7a;
+    padding: 5px 8px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+textarea {
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #106EEA;
+    color: white;
+    font: 700 20px  'Roboto Bold';
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 0 60px;
+}
+main section, main .conteudo, .divisao {
+    margin-bottom: 80px;
+}
